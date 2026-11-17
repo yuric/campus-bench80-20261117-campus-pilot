@@ -1,0 +1,14 @@
+{
+  "name": "bench80-static-fixture",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "build": "node scripts/build.mjs",
+    "check": "npm test && npm run build"
+  }
+}
